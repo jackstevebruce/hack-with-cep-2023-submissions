@@ -1,13 +1,20 @@
 ![image](./assets/HACK%20WITH%20CEP%2023%20(1).png)
 
-# {project name} - hack with cep 23
-Tell us about your project here
+# SolarSmartHub - hack with cep 23
+Solarsamrthub in a projectThe SolarSmartHub is a web project designed to help users
+make informed decisions about adopting solar systems for their
+energy needs. It simplifies the process of understanding the
+benefits of solar energy and provides personalized
+recommendations based on user inputs. This project aims to
+bridge the gap between renewable energy and end-users by
+offering an easy-to-use platform.
+
 
 ## Team Members
-[1.Team Member 1](enter_github_profile_url)   
-[2.Team Member 2](enter_github_profile_url)   
-[3.Team Member 3](enter_github_profile_url)   
-[4.Team Member 4](enter_github_profile_url)   
+[1.Muhammed Shan S](enter_github_profile_url)   
+[2.Anoop B](enter_github_profile_url)   
+[3.Abzam yakkoob M](enter_github_profile_url)   
+[4.Derin P Sanu](enter_github_profile_url)   
 
 ## Link to Project
 [Embed the live link of project](live_link)
