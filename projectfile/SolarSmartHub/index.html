@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarSmartHub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      
+      <h2 class="logo"><a href="#">SOL</a></h2>
+      <input type="checkbox" id="menu-toggler">
+      <label for="menu-toggler" id="hamburger-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </label>
+      <ul class="all-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Calculate">Calculate</a></li>
+        <li><a href="#Results">Results</a></li>
+        <li><a href="#Main Features">Main Features</a></li>
+        <li><a href="#Resources">Resources</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="homepage" id="home">
+    <div class="content">
+      <div class="text">
+        <h1>SOLARSMARTHUB</h1>
+        <p>
+            Your solar energy advisor, simplifying decisions.  <br> Empowering users to harness the full potential of solar power</p>
+      </div>
+      <a href="#Calculate">Calculate</a>
+    </div>
+  </section>
+      
+  <section class="Calculate" id="Calculate">
+    <h2>Calculate</h2>
+    <form id="solarForm">
+      <label for="monthlyElectricityBill">Monthly Electricity Bill (Rs):</label>
+      <input type="number" id="monthlyElectricityBill" required><br>
+
+      <label for="kWhUsedInMonth">Monthly kWh Usage:</label>
+      <input type="number" id="kWhUsedInMonth" required><br>
+
+      <label for="ratePerKWh">Rate per kWh (KSEB charges, in Rs.):</label>
+      <input type="number" id="ratePerKWh" required><br>
+
+      <button type="button" onclick="calculateSolarInfo()">Calculate</button>
+  </form>
+
+    
+  </section>
+
+  <section class="Results" id="Results">
+    <h2>Results</h2>
+    
+    <div id="results">
+      
+      <p>Average Daily Electricity Usage (kWh): <span id="dailyElectricityUsage"></span></p>
+      <p>Recommended Solar Panel Size (kW): <span id="solarPanelSize"></span></p>
+      <p>Monthly Solar Generation (kWh): <span id="monthlySolarGeneration"></span></p>
+      <p>Monthly Saving (Rs): <span id="monthlySaving"></span></p>
+      <p>Payback Period (years): <span id="paybackPeriod"></span></p>
+      <p>Carbon Emission Reduction (kg): <span id="carbonEmissionReduction"></span></p>
+      <p>Equivalent Trees Planted: <span id="equivalentTreesPlanted"></span></p>
+  </div>
+  </section>
+
+  <section class="Main Features" id="Main Features">
+    <h2>Main Features</h2>
+    <div class="main-features">
+      <h3>User-Friendly Input</h3>
+      <p>The project offers a user-friendly form where users can input their monthly electricity bills, and average electricity usage.</p>
+    </div>
+    <div class="main-features">
+      <h3>Personalized Recommendations</h3>
+      <p>It calculates the recommended solar panel size, estimated installation cost, payback period, and environmental benefits based on user inputs.</p>
+    </div>  
+    <div class="main-features">  
+      <h3>Interactive Comparison</h3>
+      <p>Our vision is to become the go-to destination for camping enthusiasts, known for our extensive selection of premium camping gear and exceptional customer service. We aspire to inspire and enable people to embrace the beauty of nature and create unforgettable camping experiences.</p>
+    </div>
+  </section>
+
+  <section class="resources" id="Resources">
+    <h2>Resources</h2>
+    <div class="resource-item">
+      <h3>Introduction to Solar Energy</h3>
+      <p>Solar energy is a renewable and sustainable source of power derived from the sun's rays. It is harnessed using solar panels and has numerous benefits for both individuals and the environment.</p>
+      <br><a class="read-more" href="pages/introduction.html">Read more</a>
+    </div> 
+    <div class="resource-item">
+      <h3>Why Choose Solar Smart Hub?</h3>
+      <p>Solar Smart Hub simplifies the transition to solar power. Our calculator helps you understand the potential savings, environmental impact, and benefits of adopting solar energy for your home or business.</p>
+      <br><a class="read-more" href="pages/why.html">Read more</a>
+    </div>
+    <div class="resource-item">
+      <h3>Reducing Carbon Emissions</h3>
+      <p>Switching to solar energy reduces your carbon footprint. Solar panels produce clean electricity without emitting harmful greenhouse gases, contributing to a greener and healthier planet.</p>
+      <br><a class="read-more" href="pages/rce.html">Read more</a>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us for any inquiries or feedback.</p>
+    <div class="row">
+      <div class="col information">
+        <div class="contact-details">
+          
+          <p><i class="fas fa-envelope"></i> derinpsanu733@gmail.com</p>
+          <p><i class="fas fa-phone"></i>+91 9745225437</p>
+          
+          <p><i class="fas fa-globe"></i> www.solarsmarthub.com</p>
+        </div>
+      </div>
+      <div class="col form">
+        <form action="https://formspree.io/f/xeqbpeyg"
+         method="POST" >
+ <input type="text" placeholder="Name*" required>
+  <label>
+      Your email:
+      <input type="email" name="email" required>
+  </label>
+  <label>
+      Your message:
+      <textarea name="message" required></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <span>Copyright © 2023 All Rights Reserved</span>
+      <span class="link">
+        <a href="#">Home</a>
+        <a href="#contact">Contact</a>
+      </span>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
