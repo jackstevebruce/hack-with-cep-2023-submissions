@@ -17,7 +17,7 @@ offering an easy-to-use platform.
 [4.Derin P Sanu](enter_github_profile_url)   
 
 ## Link to Project
-[Embed the live link of project](live_link)
+https://jackstevebruce.github.io/hack-with-cep-2023-submissions/projectfile/SolarSmartHub/
 
 ## How it Works ?
 Explaining the working of project  
